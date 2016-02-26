@@ -1,0 +1,58 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <style media="screen">
+        .demo {
+          height: 250px;
+        }
+      </style>
+    </head>
+
+    <body>
+
+      <h1>Materialize CSS</h1>
+      <h4>Trabajando con Helpers</h4>
+
+      <div class="container">
+        <div class="valign-wrapper red demo">
+          <h5 class="valign">This should be vertically aligned</h5>
+        </div>
+        <div>
+          <h5 class="valign left-align red">This should be left aligned</h5>
+        </div>
+        <div>
+          <h5 class="valign right-align red">This should be right aligned</h5>
+        </div>
+        <div>
+          <h5 class="center-align red">This should be center aligned</h5>
+        </div>
+
+        <!-- Columnas que desaparecen a cierta resolución -->
+        <div class="row">
+          <div class="col s3 l6">s3 l6</div>
+          <div class="col s3 l6">s3 l6</div>
+          <div class="col s3 hide-on-large-only">Desaparece</div>
+          <div class="col s3 hide-on-large-only">Desaparece</div>
+          <!-- -->
+        </div>
+
+      </div>
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
